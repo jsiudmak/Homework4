@@ -1,9 +1,9 @@
 /*
 Name: Julian Siudmak
-Date created: 4/13/2026
-Date last edited: 4/13/2026
+Date created: 5/1/2026
+Date last edited: 5/4/2026
 Version: 1.0
-Description: JavaScript file for homework 3. Further enhances validation button for entering patient data 
+Description: JavaScript file for homework 4. Further enhances validation button for entering patient data 
 */
 
 /// Alert Box
