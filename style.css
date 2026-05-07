@@ -8,6 +8,12 @@ header{
     transition: background 0.4 ease-in-out;
     z-index: 1000; }
 
+header.scrolled{
+
+    background-color: #333333;
+    opacity: 1.0;
+}
+
 #alert-box {
     display: none;
     position: fixed;
@@ -224,3 +230,33 @@ footer {
   margin-top: 26px;
   padding: 56px 0 38px;
 }
+
+.iframe-container{
+    position: absolute;
+    top: 25%;
+    right: 15px;
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+
+#welcome1 {
+    margin-top:20px;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+        
+}
+#welcome2 {
+    margin-top:20px;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+}
+
+
