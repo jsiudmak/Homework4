@@ -30,7 +30,7 @@ function getCookie(name) {
     return "";
 }
 
-var inputs = {
+var inputs = [
     {id:"user", cookieName: "userName"},
     {id:"email", cookieName: "email"},
     {id:"fname", cookieName: "firstName"},
@@ -45,7 +45,7 @@ var inputs = {
 
 
     
-}
+];
 
 
 
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 /// Alert Box
 function showAlert() {
- var alertbox = document.getElementById("alert-box");
+ var alertBox = document.getElementById("alert-box");
  var closeAlert = document.getElementById("close-alert");
 
  closeAlert.onclick = function() {
@@ -321,9 +321,9 @@ function confirmPass() {
     const confirm = document.getElementById("confirm_pass").value;
  
     if (confirm.length === 0) {
-        document.getElementById("confirm_pass-error").innerHTML = "";
-        return;
-    }
+    document.getElementById("confirm_pass-error").innerHTML = "";
+    return false;
+}
     if (pass !== confirm) {
         document.getElementById("confirm_pass-error").innerHTML = "Passwords do not match";
     } else {
