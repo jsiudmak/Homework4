@@ -30,6 +30,25 @@ function getCookie(name) {
     return "";
 }
 
+var inputs = {
+    {id:"user", cookieName: "userName"},
+    {id:"email", cookieName: "email"},
+    {id:"fname", cookieName: "firstName"},
+    {id:"mname", cookieName: "middleInitial"},
+    {id:"lname", cookieName: "lastName"},
+    {id:"dob", cookieName: "dob"},
+    {id:"ssn", cookieName: "ssn"},
+    {id:"phone", cookieName: "phoneNumber"},
+    {id:"address1", cookieName: "address1"},
+    {id:"city", cookieName: "city"},
+    {id:"zip", cookieName: "zipCode"},
+
+
+    
+}
+
+
+
 inputs.forEach(function (input) {
     var inputElement = document.getElementById(input.id);
 
